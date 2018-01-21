@@ -207,7 +207,7 @@ def main():
 
     with open("VFDB_level_gene_link.txt", 'w') as outfh2:
         # header
-        outfh2.write("Level1\tLevel2\tLevel3\tGeneID\tRelatedGenes\n")
+        outfh2.write("Level1\tLevel2\tLevel3\tRelatedGenes\tGeneID\n")
         for l1 in level4gene:
             for l2 in level4gene[l1]:
                 for l3 in level4gene[l1][l2]:
